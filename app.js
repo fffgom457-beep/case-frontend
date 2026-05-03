@@ -1,5 +1,6 @@
-const API="https://case-backend-production-b3f2.up.railway.app";
-const spinner=document.getElementById("spinner");
+const API = "https://case-backend-production-b3f2.up.railway.app";
+const spinner = document.getElementById("spinner");
+
 
 async function loadUser(){
  let r=await fetch(API+"/api/user");
