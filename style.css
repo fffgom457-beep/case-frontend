@@ -1,0 +1,4 @@
+body { background:#111; color:white; text-align:center; }
+.case { width:300px; height:100px; overflow:hidden; margin:auto; }
+.spinner { display:flex; transition:3s; }
+.item { width:100px; height:100px; display:flex; align-items:center; justify-content:center; }
